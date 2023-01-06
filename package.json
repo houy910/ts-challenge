@@ -1,0 +1,25 @@
+{
+  "name": "ts-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houy910/ts-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/houy910/ts-challenge/issues"
+  },
+  "homepage": "https://github.com/houy910/ts-challenge#readme",
+  "devDependencies": {
+    "@type-challenges/utils": "^0.1.1",
+    "@types/node": "^18.11.18",
+    "tslint": "^6.1.3",
+    "typescript": "^4.9.4"
+  }
+}
