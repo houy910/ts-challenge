@@ -2,6 +2,8 @@
 
 [type-challenges](https://github.com/type-challenges/type-challenges)
 
+项目初始化配置：
+
 ```js
 //1. 进入文件夹中，初始化npm
 npm init
