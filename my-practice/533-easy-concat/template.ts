@@ -4,7 +4,7 @@
  * @Autor: houyan
  * @Date: 2023-01-12 09:20:57
  * @LastEditors: houyan
- * @LastEditTime: 2023-01-12 09:24:37
+ * @LastEditTime: 2023-01-12 09:38:18
  */
 type Concat<T extends any[], U extends any[]> = [...T, ...U]
 
@@ -17,4 +17,4 @@ type Concat<T extends any[], U extends any[]> = [...T, ...U]
 
 
 // 知识点：
-// ...T 解构， T必须是数组，所以使用extends any[]
+// ...T 解构， T必须是数组，所以使用T extends any[]
