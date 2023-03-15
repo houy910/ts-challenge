@@ -4,7 +4,7 @@
  * @Autor: houyan
  * @Date: 2023-01-10 17:29:15
  * @LastEditors: houyan
- * @LastEditTime: 2023-03-15 15:35:08
+ * @LastEditTime: 2023-03-15 15:42:37
  */
 type MyExclude<T, U> = T extends U ? never : T
 
