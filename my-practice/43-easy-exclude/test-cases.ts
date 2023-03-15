@@ -15,3 +15,5 @@ type cases = [
   Expect<Equal<MyExclude<'a' | 'b' | 'd', 'a' | 'b' | 'd'>, never>>, // 都相当  返回never
   Expect<Equal<MyExclude<string | number | (() => void), Function>, string | number>>,
 ]
+
+
